@@ -36,6 +36,6 @@ jobs:
       # Step 5: Run the Python script
       - name: Run Python script
         run: |
-          python .github/worflows/combined_script.py  # Replace with your actual script file name
+          python combined_script.py  # Replace with your actual script file name
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # Pass GitHub token as an environment variable
